@@ -49,18 +49,31 @@ section.header button {
   width: 100%;
   background-color: White;
   background-size: cover;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.firsttext {
+  max-width: 350px;
 }
 
 .section2 h2 {
   font-weight: Semibold;
   font-size: 20px;
   color: #121212;
+  display: inline-block;
+  margin-bottom: 1em;
 }
 
 .section2 p {
   font-weight: Light;
   font-size: 13px;
   color: #121212;
+  display: inline-block;
+  margin-bottom: 2em;
 }
 
 .section2 ul {
@@ -68,6 +81,14 @@ section.header button {
   font-size: 13px;
   color: #121212;
   display: list-item;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section2 li {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .section3 {
@@ -76,6 +97,10 @@ section.header button {
   background-image: url("../testimonial_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section3 q {
@@ -88,6 +113,7 @@ section.header button {
   font-weight: semibold;
   font-size: 18px;
   color: white;
+  margin-top: 1em;
 }
 
 .section4 {
@@ -95,6 +121,9 @@ section.header button {
   width: 100%;
   background-color: #f9e42e;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section4 button {
@@ -110,16 +139,30 @@ section.header button {
   width: 100%;
   background-color: #121212;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section5 h1 {
   font-weight: extra bold;
   font-size: 24px;
   color: #f9e42e;
+  margin: 1em;
+}
+
+.twitter {
+  margin: 0.5em;
+}
+
+.fb {
+  margin: 0.5em;
 }
 
 .section5 footer {
   font-weight: semibold;
   font-size: 9px;
   color: white;
+  margin: 1em;
 }
