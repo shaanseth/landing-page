@@ -1,0 +1,33 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+  color: MintCream
+}
+
+section.header {
+  height: 80vh;
+  background-image: url("../header_bg.jpg");
+  background-repeat: no-repeat;
+}
+
+section.header h1{
+  font-weight: extra-bold;
+  font-size: 24px;
+}
+
+section.header p{
+  font-weight: semi-bold;
+  font-size: 24px;
+}
+
+button {
+  background-color: #f9e42e;
+  font-size: 14px;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+section.section2 {
+  height: 70vh;
+  background-color: White;
+}
